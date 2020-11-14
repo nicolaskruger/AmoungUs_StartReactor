@@ -1,0 +1,87 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    background: url("../img/among.jpg") no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.terminal{
+    background: url("../img/termina.png") no-repeat;
+    background-size: contain;
+    width: 30vw;
+    height: 34.5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.terminal__led{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    height: 4vw;
+}
+.terminal__led > div{
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius: 100%;
+}
+.ok{
+    background-color: green;
+}
+.notOk{
+    background-color: black;
+}
+.terminal__screen, .terminal__inputs{
+    width: 20vw;
+    height: 20vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 2px;
+}
+.terminal__screen{
+    background-color: black;
+}
+.selected{
+    background-color: royalblue;
+}
+.notSelected{
+    background-color: black;
+}
+.terminal__screen > div{
+
+}
+.terminal__inputs > .bt{
+    background-color: gray;
+    transition: 100ms;
+}
+.terminal__inputs > .bt:hover{
+    background-color: dimgray;
+}
+.terminal__inputs > .bt:focus{
+    background-color: royalblue;
+}
+.msg{
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 10vw;
+    color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.inv{
+    display: none;
+}

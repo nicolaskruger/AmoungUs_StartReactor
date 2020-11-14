@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Start Reactor</title>
+</head>
+<body>
+    <main>
+        <section class="terminal" id="termina01">
+            <div class="terminal__led">
+               
+            </div>
+            <div class="terminal__screen">
+                <div class="selected"></div>
+                
+            </div>
+        </section>
+        <section class="terminal">
+            <div class="terminal__led" id="input01">
+                
+            </div>
+            <div class="terminal__inputs">
+                <button class="bt"></button>
+                <button class="bt"></button>
+                <button class="bt"></button>
+                <button class="bt"></button>
+                <button class="bt"></button>
+                <button class="bt"></button>
+                <button class="bt"></button>
+                <button class="bt"></button>
+                <button class="bt"></button>
+            </div>
+        </section>
+    </main>
+    <h1 class="msg inv" >Task Complete</h1>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script>
+        System.defaultJSExtensions = true;
+        System.import('dist/app.js').catch(function(err){
+            console.error(err);
+        });
+    </script>
+</body>
+</html>
