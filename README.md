@@ -2,14 +2,10 @@
 
 ## description:
 
-this repository is a automated set up for TypeScript front-end projects on ubuntu
+this repository is a front-end only aplication of Amoung Us minigame start the reactor
 
 ## using
 
-### git clone git@github.com:nicolaskruger/setUpTypeScript.git
+### npm intall
 
-### ./setUp.bash
-
-#### confirm all questions
-
-#### rename your project directory name
+### open index.htm on your browser and have some fun.
