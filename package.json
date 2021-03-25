@@ -1,5 +1,6 @@
 {
   "name": "node-with-ts",
+  "homepage": "https://nicolaskruger.github.io/AmoungUs_StartReactor/",
   "version": "1.0.0",
   "description": "",
   "main": "dist/app.js",
